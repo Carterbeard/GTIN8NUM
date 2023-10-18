@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600;900&display=swap');
+
+
+body{
+    align-items: center;
+    background: #f7f4e8;
+    font-family: 'Tektur';
+    font-display: swap;
+    }
+
+.container{
+    align-items: center;
+    background-color: #f7f4e8;
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+    color: #ADD8E6;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+}
+
+.validator{
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.01);
+    box-shadow: 5px 10px 10px rgba(35,35,35,0.19);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.creating{
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.01);
+    box-shadow: 5px 10px 10px rgba(35,35,35,0.19);
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.creating_button{
+    font-size: 80px;
+    border-radius: none;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: #ADD8E6;
+    text-shadow: 2px 1px 2px black;
+    height: 10px;
+    transform : translate(30px,-20px);
+    display: flex;
+    display: inline-block;
+}
+
+.validator_button{
+    font-size: 80px;
+    border-radius: none;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: #ADD8E6;
+    text-shadow: 2px 1px 2px black;
+    height: 10px;
+    transform : translate(20px,28px);
+    display: flex;
+    display: inline;
+}
+
+.creating_button:hover{
+    color: cadetblue;
+}
+
+.validator_button:hover{
+    color: cadetblue;
+}
+
+.creatingunseen{
+    flex: inherit;
+    padding: 30px;
+    transform: translate(0px,-15px);
+}
+
+.write{
+    display: inline-block;
+    position: relative;
+    top: -50px;
+}
+
+.validatorunseen{
+    flex: inherit;
+    padding: 30px;
+    transform: translate(0px,-15px);
+}
+
+.write1{
+    display: inline;
+    position: relative;
+    top: -50px;
+}

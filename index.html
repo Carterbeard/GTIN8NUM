@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTIN-8 Checker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GTIN-8 Number</h1>
+        <div class="buttons">
+            <div class="validator">
+                <div class="idek">
+                <div class="write1">
+                    Validating GTIN-8 Number <button class = "validator_button" onclick = "validator()">˅</button>
+                </div>
+                
+                <div hidden class="validatorunseen">
+                    <label for="8dignum"> Please enter your 8 digit GTIN-8 number:</label>
+                    <input type="text" id="8dignum" minlength="8" maxlength="8" required>
+                </div>
+                </div>
+            </div>
+            <div class="creating">
+                <div class="enter">
+                    <div class="write"> 
+                        Creating GTIN-8 Number </div><button  class= "creating_button" onclick="creating(this)">˅</button> 
+                    
+                <div hidden="hidden" class="creatingunseen">
+                    <label for="7dignum"> Please enter your 7 digit number:</label>
+                    <input type="text" id="7dignum" minlength="7" maxlength="7" required>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
