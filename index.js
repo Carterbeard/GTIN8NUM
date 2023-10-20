@@ -1,10 +1,9 @@
 function creating() {
-    let element = document.getElementsByClassName("creatingunseen");
+    let element = document.getElementByClassName("creatingunseen");
     let hidden = element.getAttribute("hidden");
-    if(hidden=="hidden"){
+    if(hidden){
         element.removeAttribute("hidden");
     } else {
-        element.setAttribute("hidden", "hidden");
+        element.setAttribute("hidden", "");
     }
-
 }
